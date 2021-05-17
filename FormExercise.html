@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Exercise</title>
+</head>
+
+<body>
+
+    <h1>Register</h1>
+    <form>
+        <div>
+            <label for="firstName">Fisrt Name:</label>
+            <input name="name" id="firstName" type="fisrtName" placeholder="John" required>
+
+            <label for="lastName">Last Name:</label>
+            <input id="lastName" type="lastName" placeholder="Smith" required>
+        </div>
+
+        <div>
+            <label for="male">Male</label>
+            <input name="gender" id="male" type="radio" value="MALE">
+
+            <label for="female">Female</label>
+            <input name="gender" id="female" type="radio" value="FEMALE">
+
+            <label for="other">Other</label>
+            <input name="gender" id="other" type="radio" value="OTHER">
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input name="email" id="email" type="email" placeholder="your email" required>
+
+            <label for="passwrod">Password:</label>
+            <input name="password" id="password" type="password" placeholder="your password" minlength="5" maxlength ="10" required>
+        </div>
+
+        <div>
+            <label for="birthday">Birthday:</label>
+            <select>
+                <option value="month">Month</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+            </select>
+
+            <select>
+                <option value="day">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+
+            <select>
+                <option value="year">Year</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="terms">I agree to the terms and conditions</label>
+            <input type="checkbox">
+        </div>
+
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+
+</body>
+
+</html>
